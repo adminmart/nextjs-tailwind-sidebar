@@ -1,0 +1,35 @@
+import { default as React } from 'react';
+type SidebarProps = {
+    children: React.ReactNode;
+    width?: string;
+    collapsewidth?: string;
+    textColor?: string;
+    isCollapse?: boolean;
+    themeColor?: string;
+    themeSecondaryColor?: string;
+    mode?: "light" | "dark";
+    direction?: "ltr" | "rtl";
+    userName?: string;
+    designation?: string;
+    showProfile?: boolean;
+    userimg?: string;
+    onLogout?: () => void;
+    className?: string;
+    animation?: boolean;
+    side?: "left" | "right";
+    variant?: "sidebar" | "floating" | "inset";
+    collapsible?: "offcanvas" | "icon" | "none";
+    showTrigger?: boolean;
+};
+export declare const SidebarContext: React.Context<{
+    width: string;
+    collapsewidth: string;
+    textColor: string;
+    isCollapse: boolean;
+    themeColor: string;
+    themeSecondaryColor: string;
+    direction: string;
+    animation: boolean;
+}>;
+export declare const AMSidebar: ({ children, width, collapsewidth, textColor, isCollapse, themeColor, themeSecondaryColor, mode, direction, userName, designation, showProfile, userimg, onLogout, animation, className, side, variant, collapsible, showTrigger }: SidebarProps) => import("react/jsx-runtime").JSX.Element;
+export {};
