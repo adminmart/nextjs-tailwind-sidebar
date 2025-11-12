@@ -1,16 +1,10 @@
-## Tailwind Sidebar – Easy, Customizable React & Next.js Sidebar
+## NextJS Tailwind Sidebar – Easy, Customizable Next.js Sidebar
 
 Build beautiful and responsive sidebars in seconds! **Nextjs Tailwind Sidebar** is a lightweight and fully customizable sidebar component for React and Next.js projects. It comes with built-in support for **light/dark mode**, **RTL layouts**, and **easy styling options**. Change **colors**, **fonts**, **and styles** effortlessly using Tailwind classes or your own design system.
 
 Perfect for dashboards, admin panels, and SaaS apps where you want speed, flexibility, and style — without writing repetitive code.
 
-# Live Demo
-
-[Demo](https://tailwind-admin-react-free.netlify.app/)
-
-## Authors
-
-- [@adminmart](https://adminmart.com)
+# [Live Demo](https://tailwindadmin-nextjs-free.vercel.app/)
 
 ## Screenshots
 
@@ -20,7 +14,7 @@ Perfect for dashboards, admin panels, and SaaS apps where you want speed, flexib
 
 ## Installation
 
-To install react tailwind sidebar npm package
+To install nextjs tailwind sidebar npm package
 
 ```bash
   npm i tailwind-sidebar
@@ -28,7 +22,7 @@ To install react tailwind sidebar npm package
 
 ## Issues
 
-For any Issues, create new issue on https://github.com/adminmart/tailwind-sidebar/issues
+For any Issues, create new issue on https://github.com/adminmart/nextjs-tailwind-sidebar/issues
 
 ## Usage/Examples
 
@@ -223,6 +217,10 @@ export default App;
 | `img`        | `string`            | `Logo url` | set the logo of the sidebar                         |
 | `href`       | `string`            | `set url`  | set any url you wanted to redirect                  |
 | `component ` | `React.ElementType` | `Link `    | set react router link or nextjs Link to apply route |
+
+## Authors
+
+- [@adminmart](https://adminmart.com)
 
 ## Contributing
 
